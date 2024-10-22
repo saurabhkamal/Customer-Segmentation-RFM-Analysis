@@ -1,6 +1,6 @@
 # Customer Segmentation: Recency, Frequency, Monetary (RFM) Analysis
 
-## Introduction:
+## 1. Introduction:
 
 Customer segmentation is a crucial analytical technique that allows businesses to categorize their customer base into distinct groups based on specific behaviors and characteristics. One of the most effective methods for segmentation is through RFM analysis—an approach that evaluates customers based on Recency, Frequency, and Monetary Value. These three metrics provide valuable insights into customer engagement, purchasing behavior, and overall value to the business.
 
@@ -10,7 +10,7 @@ Customer segmentation is a crucial analytical technique that allows businesses t
 
 By using RFM analysis, businesses can develop targeted marketing strategies, prioritize high-value customers, and create personalized engagement initiatives to drive loyalty and maximize revenue. This segmentation helps to identify the most valuable customers, re-engage those who are at risk of churning, and optimize resource allocation for customer acquisition and retention.
 
-## Project Details
+## 2. Project Details
 The project utilizes a dataset of online retail transactions, which includes information on customer demographics, purchase history, and product details. Furthermore, this project is divided into two parts:
 
 1. Exploratory Data Analysis (EDA)
@@ -20,7 +20,7 @@ In EDA, I have explored the data, examined the various features, and identified 
 
 In RFM analysis, I have explored how Recency, Frequency, and Monetary Value can be used to group customers into different segments, such as Gold, Silver, and Bronze, as well as Best Customers, lost cheap customers, almost lost customers, and lost customers, allowing for data-driven decision-making that aligns with business objectives. Through this analysis, we aim to uncover actionable insights that can be used to enhance customer relationships and drive business growth.
 
-## Key Insights:
+## 3. Key Insights:
 
 **1. InvoiceNo (Transaction Analysis):**
 
@@ -196,7 +196,7 @@ Key insights you can infer from the heatmap:
 
 ![image](https://github.com/user-attachments/assets/24144513-61a8-49c1-bb2c-065234d2fede)
 
-## Recommendations
+## 4. Recommendations
 
 **Based on the above R-F-M score, we can give some Recommendations.**
 
