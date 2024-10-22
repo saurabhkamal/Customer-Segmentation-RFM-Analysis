@@ -1,4 +1,4 @@
-# Customer Segmentation Recency, Frequency, Monetary (RFM) Analysis
+# Customer Segmentation: Recency, Frequency, Monetary (RFM) Analysis
 
 ## Introduction:
 
