@@ -99,3 +99,24 @@ The geographical heatmap shows the number of unique customers by country. Here a
 
 - The map provides a visual representation of the geographic distribution of customers. This can be helpful in understanding the market reach and identifying potential growth opportunities.
 - For example, if a business is primarily focused on the European market, the map suggests that there might be opportunities to expand into other regions with a growing customer base.
+
+**6. Top 11 Countries by Unique Customers:**
+
+![image](https://github.com/user-attachments/assets/2a89ffcf-7adf-4cfc-a570-5a1ab8becb78)
+
+**7. How much sales happened for each product category and how many quantities each category is being sold:**
+
+![image](https://github.com/user-attachments/assets/d91dddeb-ee52-4efe-bade-5a0de9f6f86e)
+
+The image shows two bar charts that rank the top 10 products by unit price and quantity sold. Here's what we can infer from the charts:
+
+**Top 10 Products by Unit Price:**
+
+- Product Diversity: The top 10 products by unit price are quite diverse, ranging from postage items to kitchenware and home decor.
+- High-Priced Items: The product with the highest unit price is "POSTAGE," followed by "Manual" and "DOTCOM POSTAGE." This suggests that these items are relatively expensive compared to the other products in the dataset.
+- Price Variation: There is a significant variation in unit prices among the top 10 products, with some products being priced much higher than others.
+
+**Top 10 Products by Quantity:**
+
+- Popular Products: The product "WHITE HANGING HEART T-LIGHT HOLDER" appears twice in the top 10, suggesting that it is particularly popular among customers.
+- Quantity Variation: There is less variation in quantity sold among the top 10 products compared to unit price, indicating that a smaller number of products account for a significant portion of total sales.
