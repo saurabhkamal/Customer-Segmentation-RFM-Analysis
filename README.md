@@ -32,12 +32,26 @@ The bar chart shows the monthly distribution of transactions (invoices) over a p
 
 Here's what we can learn from the chart:
 
-- Overall trend: The number of invoices generally increases in 2011, with a significant spike in May 2011.
-- Peak period: The highest number of invoices occurred in May 2011.
-- Seasonal patterns: There seems to be a slight seasonal variation, with higher numbers of invoices in the later part of the years (2010 and 2011, but higher in 2011).
-- Low periods: The lowest number of invoices occurred in the months of 2010.
+**- Overall trend:** The number of invoices generally increases in 2011, with a significant spike in May 2011.
+**- Peak period:** The highest number of invoices occurred in May 2011.
+**- Seasonal patterns:** There seems to be a slight seasonal variation, with higher numbers of invoices in the later part of the years (2010 and 2011, but higher in 2011).
+**- Low periods:** The lowest number of invoices occurred in the months of 2010.
 
 Overall, the chart provides a visual representation of the transactional activity over the given period, highlighting the peak periods and any seasonal patterns.
 
+**2. InvoiceNo (Transaction Analysis):**
+Showing purchase activity by day of the week and hour to see peak shopping times
+![image](https://github.com/user-attachments/assets/adb782a2-b88c-45e9-a419-80253c2c4ea0)
 
+The heatmap provides a visual representation of purchase activity by day of the week and hour of the day. The color intensity indicates the number of purchases made during that specific time period.
+
+Here are some key insights from the heatmap:
+
+**-Peak activity:** The highest number of purchases occurs on Thursday at 17:00 (5:00 PM), with a total of 45,916 purchases.
+**-Weekday patterns:** Weekdays generally have higher purchase activity than weekends, with Thursday and Friday being the busiest days.
+**-Hourly patterns:** The busiest hours are typically in the afternoon and evening, with a peak around 17:00 (5:00 PM).
+**-Weekend trends:** Weekends have lower overall purchase activity.
+**-Quiet periods:** The early morning hours and late evening hours tend to have lower purchase activity.
+
+Overall, the heatmap provides a clear visualization of the busiest days and times for purchases, which can be valuable for businesses in optimizing their operations and marketing strategies.
    
