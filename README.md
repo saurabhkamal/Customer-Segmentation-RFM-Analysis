@@ -39,7 +39,7 @@ Here's what we can learn from the chart:
 
 Overall, the chart provides a visual representation of the transactional activity over the given period, highlighting the peak periods and any seasonal patterns.
 
-**2. InvoiceNo (Transaction Analysis):**
+**2. InvoiceDate (Time-Based Trends):**
 Showing purchase activity by day of the week and hour to see peak shopping times
 ![image](https://github.com/user-attachments/assets/adb782a2-b88c-45e9-a419-80253c2c4ea0)
 
@@ -55,3 +55,47 @@ Here are some key insights from the heatmap:
 
 Overall, the heatmap provides a clear visualization of the busiest days and times for purchases, which can be valuable for businesses in optimizing their operations and marketing strategies.
    
+**3. UnitPrice (Pricing Analysis):**
+How does the price distribution look? Are there outliers in the pricing structure?
+![image](https://github.com/user-attachments/assets/c45a77cb-ea32-4d4d-adaf-ad6bb99f1b47)
+
+The histogram shows the distribution of unit prices in a dataset. Here's what we can infer from it:
+
+**Distribution:**
+
+- The distribution is highly skewed to the right, meaning there are a few very high unit prices that pull the mean to the right.
+- The majority of unit prices are between 0 and 2, with a peak frequency around 1.
+- There is a long tail to the right, indicating the presence of some high-priced items.
+
+**Insights:**
+
+- The majority of products are priced relatively low, with a few high-priced items that skew the distribution.
+- This distribution suggests that there might be a few premium products or luxury items that are driving the overall average unit price.
+- The long tail to the right indicates that there is a significant range of prices, suggesting that the dataset includes products from various categories or brands.
+
+Overall, the histogram provides a visual representation of the unit price distribution, highlighting the skewness and the presence of high-priced items. This information can be valuable for understanding the pricing structure of the dataset and making informed decisions about product pricing and marketing strategies.
+
+**4. CustomerID (Customer Behavior):**
+How many unique customers are there? Are there repeat customers, or do most customers make a single purchase?
+
+![image](https://github.com/user-attachments/assets/192d486e-9804-4d80-8b29-54c08473d027)
+
+- Customers are classified as either 'new' or 'repeat' based on their purchase count.
+- A pie chart is used to show the percentage split between new and repeat customers.
+
+**5. Country (Geographical Analysis):**
+Map Plot: Geographical Heatmap Showing Concentration of Customers by Country
+
+![image](https://github.com/user-attachments/assets/bf6568b0-3671-4e59-a94f-c3a93c87d090)
+
+The geographical heatmap shows the number of unique customers by country. Here are some insights that can be inferred from it:
+
+**Customer Concentration:**
+
+- The map highlights regions with higher concentrations of unique customers. In this case, it appears that there are more unique customers particularly in the United Kingdom and surrounding countries.
+- Other regions, such as North America, Australia, and parts of Asia, also have a significant number of unique customers, but the concentration is lower compared to UK.
+
+**Geographic Distribution:**
+
+- The map provides a visual representation of the geographic distribution of customers. This can be helpful in understanding the market reach and identifying potential growth opportunities.
+- For example, if a business is primarily focused on the European market, the map suggests that there might be opportunities to expand into other regions with a growing customer base.
