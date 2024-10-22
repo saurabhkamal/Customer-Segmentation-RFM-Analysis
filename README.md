@@ -23,7 +23,9 @@ In RFM analysis, I have explored how Recency, Frequency, and Monetary Value can 
 ## Key Insights:
 
 **1. InvoiceNo (Transaction Analysis):**
+
 How many transactions (invoices) are generated over time? Are there seasonal trends in transaction volume?
+
 ![image](https://github.com/user-attachments/assets/02bf1ae6-68bb-4547-a74e-3a82adff225a)
 
 ![image](https://github.com/user-attachments/assets/6ac02418-590e-4c8e-b3dd-f4c6ec051b41)
@@ -40,7 +42,9 @@ Here's what we can learn from the chart:
 Overall, the chart provides a visual representation of the transactional activity over the given period, highlighting the peak periods and any seasonal patterns.
 
 **2. InvoiceDate (Time-Based Trends):**
+
 Showing purchase activity by day of the week and hour to see peak shopping times
+
 ![image](https://github.com/user-attachments/assets/adb782a2-b88c-45e9-a419-80253c2c4ea0)
 
 The heatmap provides a visual representation of purchase activity by day of the week and hour of the day. The color intensity indicates the number of purchases made during that specific time period.
@@ -56,7 +60,9 @@ Here are some key insights from the heatmap:
 Overall, the heatmap provides a clear visualization of the busiest days and times for purchases, which can be valuable for businesses in optimizing their operations and marketing strategies.
    
 **3. UnitPrice (Pricing Analysis):**
+
 How does the price distribution look? Are there outliers in the pricing structure?
+
 ![image](https://github.com/user-attachments/assets/c45a77cb-ea32-4d4d-adaf-ad6bb99f1b47)
 
 The histogram shows the distribution of unit prices in a dataset. Here's what we can infer from it:
@@ -76,6 +82,7 @@ The histogram shows the distribution of unit prices in a dataset. Here's what we
 Overall, the histogram provides a visual representation of the unit price distribution, highlighting the skewness and the presence of high-priced items. This information can be valuable for understanding the pricing structure of the dataset and making informed decisions about product pricing and marketing strategies.
 
 **4. CustomerID (Customer Behavior):**
+
 How many unique customers are there? Are there repeat customers, or do most customers make a single purchase?
 
 ![image](https://github.com/user-attachments/assets/464d7354-60dc-44d2-b96c-9ed91bb161ce)
@@ -84,6 +91,7 @@ How many unique customers are there? Are there repeat customers, or do most cust
 - A pie chart is used to show the percentage split between new and repeat customers.
 
 **5. Country (Geographical Analysis):**
+
 Map Plot: Geographical Heatmap Showing Concentration of Customers by Country
 
 ![image](https://github.com/user-attachments/assets/bf6568b0-3671-4e59-a94f-c3a93c87d090)
@@ -134,7 +142,8 @@ Key insights you can infer from the heatmap:
 2. Best Performing Cohorts: Certain months (e.g., 2010-12, 2011-09) have higher retention rates over time compared to others. These cohorts could represent times when marketing efforts, product offerings, or seasonality led to better customer retention.
 
 
-**8. Analyzing RFM segments:**
+**9. Analyzing RFM segments:**
+
 ![image](https://github.com/user-attachments/assets/043cac2d-6f37-494a-aff9-8fb5696e9dcd)
 
 - Recency decreases as the RFM score increases**: Customers with higher RFM scores (e.g., 12) have made more recent purchases (lower Recency), while those with lower scores (e.g., 3) haven't made purchases in a while (higher Recency values).
@@ -164,7 +173,7 @@ Key insights you can infer from the heatmap:
 - They make very few purchases (2.1–4.5 on average) and spend significantly less (21.7–75.3).
 - These customers are either new or inactive and may require targeted marketing to increase engagement, such as special offers or discounts.
 
-**9. Using RFM score to group customers into GOLD, SILVER, and BRONZE segments:**
+**10. Using RFM score to group customers into GOLD, SILVER, and BRONZE segments:**
 
 ![image](https://github.com/user-attachments/assets/022d622c-a861-48cf-b22a-26de8bc3bb2b)
 
@@ -183,7 +192,7 @@ Key insights you can infer from the heatmap:
 - With a high Recency score (217.3), they are at risk of being lost entirely unless reactivated.
 - This group would benefit from reactivation campaigns like win-back offers, discounts, or targeted marketing aimed at re-engaging them.
 
-**10. Customer Segments Distribution (RFM):**
+**11. Customer Segments Distribution (RFM):**
 
 ![image](https://github.com/user-attachments/assets/24144513-61a8-49c1-bb2c-065234d2fede)
 
