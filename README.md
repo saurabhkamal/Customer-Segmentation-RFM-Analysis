@@ -120,3 +120,15 @@ The image shows two bar charts that rank the top 10 products by unit price and q
 
 - Popular Products: The product "WHITE HANGING HEART T-LIGHT HOLDER" appears twice in the top 10, suggesting that it is particularly popular among customers.
 - Quantity Variation: There is less variation in quantity sold among the top 10 products compared to unit price, indicating that a smaller number of products account for a significant portion of total sales.
+
+**8. Visualizing Cohort Analysis:**
+
+![image](https://github.com/user-attachments/assets/fc0f1f9d-c94d-4b98-a1fa-69bde73fce17)
+
+The heatmap shows retention trends for different customer cohorts and provides a clear way to identify strong or weak retention periods over time.
+
+Key insights you can infer from the heatmap:
+
+1. Customer Retention Over Time: The retention rate generally decreases as time (cohort index) progresses, which is common as customers tend to drop off after initial engagement. Darker green shades indicate higher retention, while lighter shades suggest a lower retention rate.
+
+2. Best Performing Cohorts: Certain months (e.g., 2010-12, 2011-09) have higher retention rates over time compared to others. These cohorts could represent times when marketing efforts, product offerings, or seasonality led to better customer retention.
