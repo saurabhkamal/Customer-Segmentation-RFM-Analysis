@@ -78,7 +78,7 @@ Overall, the histogram provides a visual representation of the unit price distri
 **4. CustomerID (Customer Behavior):**
 How many unique customers are there? Are there repeat customers, or do most customers make a single purchase?
 
-![image](https://github.com/user-attachments/assets/192d486e-9804-4d80-8b29-54c08473d027)
+![image](https://github.com/user-attachments/assets/75833935-18de-4133-a652-d98affcaa6e2)
 
 - Customers are classified as either 'new' or 'repeat' based on their purchase count.
 - A pie chart is used to show the percentage split between new and repeat customers.
