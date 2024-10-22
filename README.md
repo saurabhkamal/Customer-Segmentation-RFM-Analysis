@@ -132,3 +132,71 @@ Key insights you can infer from the heatmap:
 1. Customer Retention Over Time: The retention rate generally decreases as time (cohort index) progresses, which is common as customers tend to drop off after initial engagement. Darker green shades indicate higher retention, while lighter shades suggest a lower retention rate.
 
 2. Best Performing Cohorts: Certain months (e.g., 2010-12, 2011-09) have higher retention rates over time compared to others. These cohorts could represent times when marketing efforts, product offerings, or seasonality led to better customer retention.
+
+
+**8. Analyzing RFM segments:**
+![image](https://github.com/user-attachments/assets/043cac2d-6f37-494a-aff9-8fb5696e9dcd)
+
+- Recency decreases as the RFM score increases**: Customers with higher RFM scores (e.g., 12) have made more recent purchases (lower Recency), while those with lower scores (e.g., 3) haven't made purchases in a while (higher Recency values).
+
+- Frequency increases with RFM score**: Customers with higher scores (e.g., 12) tend to make significantly more purchases than those with lower scores. For example, customers with an RFM score of 3 made an average of 2.1 purchases, while those with a score of 12 made an average of 81.7 purchases.
+
+- Monetary Value generally increases with the RFM score**: Customers with higher scores spend significantly more. Customers with an RFM score of 12 have spent an average of 1,916.2, while those with a score of 3 spent only 21.7 on average.
+
+**High-Value Customers (RFM score 12):**
+- These customers make frequent purchases (81.7 on average) and have a low Recency score (they’ve purchased very recently).
+- They also generate a significant amount of revenue (1,916.2), making them the most valuable segment.
+- This group is highly engaged and should be prioritized for retention and reward programs.
+
+**Engaged Customers (RFM scores 10 and 11):**
+- These customers also have a low Recency score (21.3–33.6), meaning they purchase regularly.
+- They have high Frequency (25.1–39.8 purchases on average) and spend a lot (427.8–838.8).
+- These customers are loyal and valuable, and businesses should continue efforts to keep them engaged.
+
+**At-Risk Customers (RFM scores 6 and 7):**
+- These customers have moderate Recency scores (107.7–84.7), meaning it’s been a while since their last purchase.
+- They still have moderate to high Frequency (6.4–9.0 purchases on average), indicating they are repeat customers.
+- Interestingly, the Monetary Value for score 6 is negative (-62.1), which could be due to returns or discounts, while score 7 customers have a positive value (160.7).
+- This segment might be at risk of churn, especially if their recency continues to increase. They could benefit from re-engagement campaigns or incentives.
+
+**Low-Value or Inactive Customers (RFM scores 3 to 5):**
+- These customers have high Recency scores (144.3–261.9), indicating they haven't made recent purchases.
+- They make very few purchases (2.1–4.5 on average) and spend significantly less (21.7–75.3).
+- These customers are either new or inactive and may require targeted marketing to increase engagement, such as special offers or discounts.
+
+**9. Using RFM score to group customers into GOLD, SILVER, and BRONZE segments:**
+
+![image](https://github.com/user-attachments/assets/022d622c-a861-48cf-b22a-26de8bc3bb2b)
+
+**Gold Segment:**
+- These are highly engaged, loyal customers who make frequent and recent purchases, contributing significantly to revenue.
+- The fact that they have a very low Recency score (27.5) shows that they are actively buying.
+- Retention should be a top priority for this group, as losing these customers could have a substantial impact on revenue. Loyalty programs, exclusive offers, and personalized experiences are strategies that could further strengthen their engagement.
+
+**Silver Segment:**
+- This group makes occasional purchases and generates moderate revenue. They represent the middle tier of customers and have potential for growth.
+- Moderate Recency (100.5) indicates they have not purchased very recently, but they are still active buyers.
+- Focus on re-engagement strategies such as targeted promotions or upselling could move them into the Gold tier, enhancing their lifetime value.
+
+**Bronze Segment:**
+- These are low-value or inactive customers who haven’t purchased recently and make infrequent purchases. They contribute the least in terms of revenue.
+- With a high Recency score (217.3), they are at risk of being lost entirely unless reactivated.
+- This group would benefit from reactivation campaigns like win-back offers, discounts, or targeted marketing aimed at re-engaging them.
+
+**10. Customer Segments Distribution (RFM):**
+
+![image](https://github.com/user-attachments/assets/24144513-61a8-49c1-bb2c-065234d2fede)
+
+## Recommendations
+
+**Based on the above R-F-M score, we can give some Recommendations.**
+
+- Best Customers: We can Reward them for their multiples purchases. They can be early adopters to very new products. Suggest them “Refer a friend”. Also, they can be the most loyal customers that have the habit to order.
+- Lost Cheap Customers: Send them personalized emails/messages/notifications to encourage them to order.
+- Big Spenders: Notify them about the discounts to keep them spending more and more money on your products
+- Loyal Customers: Create loyalty cards in which they can gain points each time of purchasing and these points could transfer into a discount
+
+**Based on GOLD, SILVER, and BRONZE Segments:**
+- Gold Segment (41.5 average transactions, $884.3 spend) represents the core of the business’s revenue and should be prioritized for retention and engagement strategies. This segment contributes the most financially and is highly engaged with the brand.
+- Silver Segment (8.1 average transactions, $94.3 spend) presents growth potential. Efforts to increase their purchase frequency and spending could potentially upgrade them to the Gold tier. They are a large group, so improving their engagement can have a significant cumulative effect on revenue.
+- Bronze Segment (2.6 average transactions, $30.9 spend) represents at-risk or low-engagement customers. These customers require a different strategy, focusing on re-engagement and trying to bring them back into regular purchasing habits.
