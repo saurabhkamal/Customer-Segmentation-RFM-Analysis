@@ -1,4 +1,4 @@
-# Customer Segmentation: Recency, Frequency, Monetary (RFM) Analysis
+# Customer Segmentation: Recency, Frequency, Monetary (RFM) Analysis and K-Means Clustering
 
 ## 1. Introduction:
 
@@ -195,6 +195,40 @@ Key insights you can infer from the heatmap:
 **11. Customer Segments Distribution (RFM):**
 
 ![image](https://github.com/user-attachments/assets/24144513-61a8-49c1-bb2c-065234d2fede)
+
+## 4. K-Means Clustering
+
+After applying Elbow method and Silhouette Score Method, I decided to select K = 4 as the number of clusters because its Silhouette Score was higher than other clusters.
+
+**Relative importance of segment attributes**
+- Useful technique to identify relative importance of each segment's attribute
+- Calculate average values of each cluster
+- Calculate average values of population
+- Calculate importance score by dividing them and subtracting 1 (ensures 0 is returned when cluster average equals population average)
+
+This concept helps in understanding how each attribute (e.g., Recency, Frequency, and MonetaryValue) contributes to differentiating customer segments (clusters). By calculating the relative importance of each attribute for each cluster, you can identify which attributes are more significant in defining that specific cluster compared to the overall population.
+
+![image](https://github.com/user-attachments/assets/d47066e1-da6b-40f9-8f91-be260cbc865d)
+
+This heatmap illustrates the relative importance of attributes (Recency, Frequency, and Monetary Value) across different customer clusters generated from K-means clustering. 
+
+1. Cluster 0:
+- Recency and Frequency have low positive values (0.03 and 0.17), indicating that customers in this cluster tend to have recent purchases and a moderate frequency of transactions.
+- MonetaryValue is essentially 0, indicating that spending per transaction or total spend is very low.
+
+2. Cluster 1:
+- Recency has a strong negative value (-1.00), meaning customers in this cluster have made purchases long ago (they are likely lost or inactive).
+- Frequency and MonetaryValue are also strongly negative (-0.50 and -0.98), indicating these customers purchase infrequently and have very low spend.
+
+3. Cluster 2:
+- Recency is moderately positive (0.29), suggesting recent activity but not the most recent compared to other clusters.
+- Frequency is negative (-0.56), showing that these customers don't buy often.
+- MonetaryValue is close to zero, suggesting they may spend very little per transaction.
+
+4. Cluster 3:
+- Recency is negative (-0.52), indicating that customers haven't purchased recently.
+- Frequency has a strong positive value (0.57), indicating that these customers purchase frequently.
+- MonetaryValue is essentially 0, meaning they may not be high spenders despite frequent purchases.
 
 ## 4. Recommendations
 
