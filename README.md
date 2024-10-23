@@ -15,6 +15,7 @@ The project utilizes a dataset of online retail transactions, which includes inf
 
 1. Exploratory Data Analysis (EDA)
 2. Recency, Frequency, and Monetary Value (RFM) Analysis
+3. Unsupervised Learning Algorithm - K-Means Clustering
 
 In EDA, I have explored the data, examined the various features, and identified any missing values or inconsistencies to ensure data integrity and accuracy. Moreover, I have analyzed the characteristics of each segment, and identified their unique purchasing patterns, product preferences, and overall behavior. This analysis provides actionable insights into the motivations and needs of different customers. Also, visualizations are employed since it helps in understanding the key characteristics of each customer segment and their relationship with overall business performance.
 
