@@ -198,7 +198,7 @@ Key insights you can infer from the heatmap:
 
 ## 4. K-Means Clustering
 
-After applying Elbow method and Silhouette Score Method, I decided to select K = 4 as the number of clusters because its Silhouette Score was higher than other clusters.
+After applying the Elbow method and the Silhouette Score Method, I decided to select K = 4 as the number of clusters because its Silhouette Score was higher than that of other clusters.
 
 **Relative importance of segment attributes**
 - Useful technique to identify relative importance of each segment's attribute
